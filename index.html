@@ -1,296 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Indudhar Adi | Full Stack Engineer</title>
+<meta name="description" content="Full Stack Engineer with 5+ years building Java/Spring Boot, React/Angular, AWS, and Salesforce solutions. Explore projects, experience, skills, and education." />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/IAM-favicons.png" />
 
-        <!--CSS Style-->
-        <link rel="stylesheet" href="assets/CSS/styles.css" />
 
-        <!--Favicons-->
-        <link
-            rel = "IAM-favicons"
-            sizes="180x180"
-            href="assets/icons/IAM-favicons.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="assets/icons/IAM-favicons.png"
-        />
+<!-- Fonts & Icons -->
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-        <!-- Animate CSS CDN -->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-        />
-        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-        <title> Indudhar Adi | Software Engineer</title>
-    </head>
 
-    <body style="background-color: #f2f2f5"\>
-        <!-- Navbar -->
-         <nav>
-            <h1>Indudhar Adi Moole</h1>
-            <ul class="navigation">
-                <li><a href = "#about" class="nav-link">About</a></li>
-                <li><a href = "#skills" class ="nav-link">Skills</a></li>
-                <li><a href = "#projects" class = "nav-link">Projects</a></li>
-                <li><a href = "#contact" class = "nav-link">Contact</a></li>
-            </ul>
-            <button class = "burger-menu" id = "burger-menu"> 
-                <ion-icon class="bars" name="menu-outline"></ion-icon>
-            </button>
-         </nav>
+<!-- Styles -->
+<link rel="stylesheet" href="assets/CSS/styles.css" />
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
 
-        <!-- Hero Section -->
-        <section class="hero" id="about">
-            <img
-              src="assets/images/IMG_6302.jpg"
-              alt="indudhar-Adi"
-              loading="lazy"
-              class="hero-img"
-            />
-            <div class="bio animate">
-                <h3>Hello It's me</h3>
-              <h2 class="bio-title">Indudhar Adi Moole</h2>
-              <h3> And I'm a <span>Software Developer</span></h3>
-              <p class="bio-text">
-                
-              </p>
-              <a href="#popup" class="btn btn__hire" id="hire">Hire Me &nbsp;&rarr;</a> 
-            </div>
-      </section>
-      
-        <!-- More about -->
-        <section class="more-about">
-            <h2>About Me</h2>
-            <p>
-              Welcome to my website Passionate Software Developer and Salesforce Developer with a 
-              knack for crafting seamless integrations and innovative solutions. With a strong foundation in HTML, 
-              CSS, JavaScript, Python, SQL, Apex, VisaulaForce I thrive on solving complex problems and bringing ideas to life through code. 
-              My expertise spans across REST API and the development of custom connectors, ensuring data flows smoothly between systems. 
-              Whether it’s developing Lightning Web Components or automating workflows, I’m driven by a commitment to excellence and a love for technology. 
-              Let’s create something amazing together!         
-            </p>
-          </section>
-            <!-- Experinece -->
-            <section class="experience">
-            <h2>Experience</h2>
-            <p>
-            <h3>Jersey STEM</h3>                                                            <h4>Software Engineer </h4>
-              <h5>June 2024 - Present</h5>
-              <br>
-              Proficient in REST API integration, with extensive experience in developing Apex Code, Flows, and Triggers. 
-              Developed robust back-end web services using Python, Flask, and MySQL, enhancing HR talent acquisition by 60%. 
-              Skilled in HTML, CSS, JavaScript, and Lightning Web Components, ensuring seamless data exchange and workflow automation. 
-              Demonstrated strong problem-solving and analytical skills in troubleshooting integration issues and maintaining data integrity.
-            </p>
-            <p>
+<!-- Navbar -->
+<nav aria-label="Primary">
+<div class="container nav-inner">
+<div class="brand">
+<img src="assets/icons/IAM-favicons.png" alt="IA monogram" />
+<span>Indudhar Adi Moole</span>
+</div>
+<div class="nav-actions">
+<div class="nav-links" id="navLinks">
+<a href="#about" class="nav-link active">About</a>
+<a href="#experience" class="nav-link">Experience</a>
+<a href="#skills" class="nav-link">Skills</a>
+<a href="#projects" class="nav-link">Projects</a>
+<a href="#education" class="nav-link">Education</a>
+<a href="#contact" class="nav-link">Contact</a>
+</div>
+<button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode"><ion-icon name="moon"></ion-icon></button>
+<button class="icon-btn menu" id="menuBtn" aria-label="Open menu"><ion-icon name="menu"></ion-icon></button>
+</div>
+</div>
+</nav>
 
-              <h3>DXC Technology</h3>                                                            <h4>Software Engineer </h4>
-              <h5>June 2020 - July 2022</h5>
-              <br>
-              As a dedicated Software Developer, I have significantly contributed to Salesforce CRM and FSL development,
-              delivering robust solutions. I specialize in Apex coding, flows, triggers, and data structures with 75% test coverage. 
-              I excel in resolving technical design challenges and translating business requirements into technical specifications. 
-              By leveraging emerging Salesforce functionalities, I continuously optimize solutions. Proficient with GitHub, 
-              source control, and CI/CD, I ensure efficient development workflows. I have led data migrations from Excel to Salesforce 
-              using Apex Data Loader and implemented Salesforce Data Cloud solutions for enhanced performance and integration. 
-              I coordinate testing efforts, including SIT and UAT, ensuring smooth deployments. Additionally, I develop robust 
-              web application code in Python, JavaScript, and SQL, and handle ETL processes, data validation, and dimensional modeling. 
-              Experienced in the SDLC, I use versioning tools like Git and GitHub for effective collaboration. 
-              I demonstrate rapid growth and continuous skill development.
-            </p>
-         </section>
-        </body>
 
-        <!-- Skills section -->
-        <section class="skills" id="skills">
-            <h2 class="skill-header">My Top Skills</h2>
-      
-            <div class="skills-wrapper">
-              <div class="first-set animate__animated animate__pulse">
-                <img
-                  src="assets/icons/icons8-html-5.svg"
-                  alt=""
-                  loading="lazy"
-                  class="icon icon-card"
-                />
-                
-                <img
-                  src="assets/icons/icons8-css3.svg"
-                  alt=""
-                  loading="lazy"
-                  class="icon icon-card"
-                />
-               
-              
-                <img
-                  src="assets/icons/icons8-javascript.svg"
-                  alt=""
-                  loading="lazy"
-                  class="icon icon-card"
-                />
-              </div>
-      
-              <div class="second-set animate__animated animate__pulse">
-                <img
-                  src="assets/icons/icons8-python.svg"
-                  alt=""
-                  loading="lazy"
-                  class="icon icon-card"
-                />
-                <img
-                  src="assets/icons/icons8-sql-60.png"
-                  alt=""
-                  loading="lazy"
-                  class="icon icon-card"
-                />
-                <img
-                  src="assets/icons/icons8-git.svg"
-                  alt=""
-                  loading="lazy"
-                  class="icon icon-card"
-                />
-              </div>
-            </div>
-          </section>
+<main id="main" class="container">
+<!-- HERO / ABOUT -->
+<section id="about" class="hero">
+<div class="card shadow">
+<p>👋 Hi, I’m</p>
+<h1>Indudhar Adi — Full Stack Engineer</h1>
+<p>
+Full Stack Engineer with <strong>5+ years</strong> of experience designing, building, and deploying
+scalable web and enterprise applications. I specialize in <strong>Java/Spring Boot</strong>,
+<strong>React/Angular</strong>, cloud (AWS), and <strong>microservices</strong>. I care about clean
+architecture, measurable impact, and shipping reliable software.
+</p>
+<div class="badges">
+<span class="badge">Java • Spring Boot</span>
+<span class="badge">React • Angular • TypeScript</span>
+<span class="badge">AWS • Docker • Jenkins</span>
+<span class="badge">REST APIs • Microservices</span>
+</div>
+<div class="cta" style="margin-top:1rem">
+<a class="btn" href="https://drive.google.com/file/d/1ctzbw95M3P3U7zKkDN6vlwDTdLFNdltO/view?usp=sharing" target="_blank" rel="noopener">
+<ion-icon name="download"></ion-icon> Resume
+</a>
+<a class="btn btn--ghost" href="mailto:indudharadimoole@gmail.com"><ion-icon name="mail"></ion-icon> Email</a>
+<a class="btn btn--ghost" href="https://www.linkedin.com/in/indudhar-adi-moole/" target="_blank" rel="noopener"><ion-icon name="logo-linkedin"></ion-icon> LinkedIn</a>
+<a class="btn btn--ghost" href="https://github.com/IndudharAdi" target="_blank" rel="noopener"><ion-icon name="logo-github"></ion-icon> GitHub</a>
+</div>
+</div>
+<div class="hero-portrait card shadow" aria-hidden="true">
+<img src="assets/images/IMG_6302.jpg" alt="Portrait of Indudhar Adi" loading="lazy" />
+</div>
+</section>
 
-        <!-- Projects section -->
-        <section class="projects" id="projects">
-            <h2 class="projects-title">Some of my Recent Projects</h2>
-            <div class="projects-container">
-              <div class="project-container project-card">
-                <img
-                  src="assets/images/RAG.jpg"
-                  alt="expense-tracker"
-                  loading="lazy"
-                  class="project-pic"
-                />
-                <h3 class="project-title">Deploying a Retrieval-Augmented Generation (RAG) App</h3>
-                <p class="project-details">
-                  Develop and deploy a Retrieval-Augmented Generation (RAG) app that processes chat messages by extracting URLs, 
-                  fetching their content, and generating responses using a language model, deployed as a secure REST API endpoint.
-                </p>
-                <a href="https://github.com/IndudharAdi/Capstone_Proj" target="_blank" class="project-link">Code</a>
-              </div>
-              <div class="project-container project-card">
-                <img
-                  src="assets/images/ASM.jpeg"
-                  alt="netflic-clone"
-                  loading="lazy"
-                  class="project-pic"
-                />
-                <h3 class="project-title">Assignment Information Management</h3>
-                <p class="project-details">
-                  Developed a full-stack web application using with Flask serving a REST API with React as the frontend 
-                  Visualized GitHub data to show collaboration Leveraged Python for backend development alongside JavaScript to 
-                  orchestrate robust server-side logic and data management.
-                </p>
-                <a href="#" target="_blank" class="project-link">Check it Out</a>
-              </div>
-              <div class="project-container project-card">
-                <img
-                  src="assets/images/text-classification.avif"
-                  alt="greeny-earth"
-                  loading="lazy"
-                  class="project-pic"
-                />
-                <h3 class="project-title">Text Classification GenAI</h3>
-                <p class="project-details">
-                  This project uses SentenceTransformer embeddings, Qdrant vector store, and OpenAI's GPT model to classify text. 
-                  It embeds text data, stores it in Qdrant, retrieves relevant documents, and uses them for accurate classification into 
-                  predefined categories.
-                </p>
-                <a href="https://github.com/IndudharAdi/GENAI_Text_Classification" target="_blank" class="project-link">Code</a>
-              </div>
-            </div>
-          </section>
+<!-- EXPERIENCE -->
+<section id="experience">
+<h2 class="section-title">Experience</h2>
+<p class="section-sub">Impact, not just responsibilities.</p>
+<div class="timeline">
+<article class="item">
+<h3>Full Stack Engineer — EPIC <span class="meta">Jan 2024 – Present • USA</span></h3>
+<div class="meta">Jenkins • Docker • AWS • Angular • Spring Boot</div>
+<ul>
+<li>Automated CI/CD with Jenkins + Docker, halving release cycles and reducing deployment risk.</li>
+<li>Refactored legacy JSP/jQuery to Angular, cutting page load times by <strong>40%</strong>.</li>
+<li>Provisioned AWS (EC2, S3, Lambda) for secure, scalable environments with <strong>99.9% uptime</strong>.</li>
+<li>Implemented monitoring with CloudWatch + ELK, shrinking downtime by <strong>40%</strong>.</li>
+<li>Strengthened reliability via unit/integration/E2E tests (JUnit, Mockito, Cypress, Jasmine).</li>
+</ul>
+</article>
 
-        <!-- Contact section -->
-        <section class="contact" id="contact">
-          <iframe width="640px" 
-            height="1000px" 
-          
-            src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAWG09vRUNjJRWFhBUTM1T0ZOOUFNTEdOQk42TUE0Ny4u&embed=true" 
-            frameborder="0" 
-            marginwidth="1" 
-            marginheight="0" 
-           
-            allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> 
-          </iframe>
-        </section>
 
-        <!-- Social accounts - Fixed to the right -->
-        <div class="socials">
-          <a href="https://x.com/Indudharadi" target="_blank">
-            <img
-              src="assets/icons/icons8-twitter.svg"
-              alt="Twitter"
-              loading="lazy"
-              class="socicon"/>
-            </a>
-          <a href="https://www.linkedin.com/in/indudhar-adi-moole/" target="_blank">
-            <img
-              src="assets/icons/icons8-linkedin-logo.svg"
-              alt="Linkedin"
-              loading="lazy"
-              class="socicon"/>
-          </a>
-          <a href="https://github.com/IndudharAdi" target="_blank"
-            ><img src="assets/icons/icons8-github-48.png" alt="Github" class="socicon"
-          /></a>
-        </div>
-       
-      
-  
-        <!-- Scroll to top -->
-        <i class="scroll-up" id="scroll-up"
-        ><img
-          src="assets/icons/icons8-upward-arrow.gif"
-          class="socicon up-arrow"
-          alt=""
-          /></i>
+<article class="item">
+<h3>Software Engineer — DXC Technology <span class="meta">Jan 2020 – Jul 2022 • Bengaluru</span></h3>
+<div class="meta">Spring Boot • React/Redux • Spring Security • Hibernate/JPA</div>
+<ul>
+<li>Migrated JSP/Servlets to Spring Boot + React, improving development speed by <strong>30%</strong>.</li>
+<li>Developed & secured <strong>20+ REST APIs</strong> with Spring Security, reducing latency by a third.</li>
+<li>Rebuilt 15+ FE modules in React/Redux, trimming page loads by <strong>25%</strong>.</li>
+<li>Pushed unit test coverage beyond <strong>85%</strong>, drastically lowering post‑release bugs.</li>
+</ul>
+</article>
 
-          <div class="popup" id="popup">
-            <div class="popup__content">
-              <div class="popup__right">
-                <a href="#!" class="popup__close">&times;</a>
-                <div class="popup__top">
-                  <h2 class="heading-secondary u-text-center">Curriculum Vitae</h2>
-                  <p class="popup__text">Grab My CV to find out more about me.</p>
-                  <div class="popup__buttons">
-                    <a href="https://drive.google.com/file/d/1WTh5dZg79p9shH-2C_mBZ_tLVPvsnKdx/view?usp=drive_link"
-                      class="btn">Download</a>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-      <!-- Footer section -->
-        <footer>
-          <p class="copy">&copy; Copyright 2024</p>
-          <p class="copy">
-            Built with &#x2661; by
-            <a href="https://www.linkedin.com/in/indudhar-adi-moole/" target="_blank">Indudhar Adi Moole</a>
-          </p>
-        </footer>
 
-        <!-- Website scripts -->
-        <script src="assets/JS/app.js"></script>
+<article class="item">
+<h3>Full Stack Java Developer — Magna Infotech <span class="meta">Jan 2019 – Jan 2020 • Hyderabad</span></h3>
+<div class="meta">Java • Servlets • Bootstrap/Redux • MongoDB/Firebase</div>
+<ul>
+<li>Improved backend processing efficiency by <strong>20%</strong> through optimized Java services.</li>
+<li>Introduced Python workflows that increased decision accuracy by <strong>25%</strong>.</li>
+<li>Built RESTful APIs enabling smoother FE/BE integration.</li>
+<li>Enhanced UX with responsive UIs; reduced average page load by <strong>15%</strong>.</li>
+</ul>
+</article>
+</div>
+</section>
 
-        <!-- Ion icons scripts -->
-        <script
-            type="module"
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
-        </script>
-        <script
-            nomodule
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
-        </script>   
-    </body>
+<!-- SKILLS -->
+<section id="skills">
+<h2 class="section-title">Skills</h2>
+<p class="section-sub">Tools I use to turn ideas into products.</p>
+<div class="skills">
+<div class="skill"><img src="assets/icons/icons8-java.svg" alt="Java"/><span>Java</span></div>
+<div class="skill"><img src="assets/icons/icons8-spring-boot.svg" alt="Spring"/><span>Spring Boot</span></div>
+<div class="skill"><img src="assets/icons/icons8-react.svg" alt="React"/><span>React</span></div>
+<div class="skill"><img src="assets/icons/icon8-angular.svg" alt="React"/><span>Angular</span></div>
+<div class="skill"><img src="assets/icons/icons8-typescript.svg" alt="TS"/><span>TypeScript</span></div>
+<div class="skill"><img src="assets/icons/icons8-aws.svg" alt="AWS"/><span>AWS</span></div>
+<div class="skill"><img src="assets/icons/icons8-docker.svg" alt="Docker"/><span>Docker</span></div>
+<div class="skill"><img src="assets/icons/icons8-git.svg" alt="Git"/><span>Git/Jenkins</span></div>
+<div class="skill"><img src="assets/icons/icons8-sql-60.png" alt="SQL"/><span>SQL/NoSQL</span></div>
+<div class="skill"><img src="assets/icons/icons8-python.svg" alt="Python"/><span>Python</span></div>
+<div class="skill"><img src="assets/icons/icons8-salesforce.svg" alt="SF"/><span>Salesforce</span></div>
+<div class="skill"><img src="assets/icons/icons8-apex.svg" alt="Apex"/><span>Apex</span></div>
+</div>
+<p class="section-sub" style="margin-top:10px">
+<strong>Testing:</strong> JUnit, Mockito, Selenium, Cypress, Jasmine · <strong>Security:</strong> Spring Security, OAuth2, JWT
+</p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+<h2 class="section-title">Selected Projects</h2>
+<p class="section-sub">A few things I’m proud of.</p>
+<div class="projects">
+<article class="project shadow">
+<img class="thumb" src="assets/images/RAG.jpg" alt="RAG app" loading="lazy"/>
+<div class="content">
+<h3>GEN‑AI RAG Application</h3>
+<div class="tags"><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">Docker</span><span class="tag">LLM</span></div>
+<p>Retrieval‑Augmented Generation API that extracts URLs, fetches content, and returns cited answers. Deployed on Fly.io with vector search.</p>
+</div>
+<div class="actions">
+<a class="btn btn--ghost" href="https://github.com/IndudharAdi/Capstone_Proj" target="_blank" rel="noopener"><ion-icon name="logo-github"></ion-icon> Code</a>
+</div>
+</article>
+<article class="project shadow">
+<img class="thumb" src="assets/images/text-classification.avif" alt="Chatbot" loading="lazy"/>
+<div class="content">
+<h3>Chatbot — TensorFlow, NLTK & Python</h3>
+<div class="tags"><span class="tag">TensorFlow</span><span class="tag">NLTK</span><span class="tag">NLP</span></div>
+<p>Intent‑classification chatbot using bag‑of‑words, lemmatization, and a neural network. Packaged with a Tkinter GUI for real‑time interaction.</p>
+</div>
+<div class="actions">
+<a class="btn btn--ghost" href="https://github.com/IndudharAdi/chatbot-tensorflow-nlp" target="_blank" rel="noopener"><ion-icon name="logo-github"></ion-icon> Code</a>
+</div>
+</article>
+<article class="project shadow">
+<img class="thumb" src="assets/images/ASM.jpeg" alt="Assignment app" loading="lazy"/>
+<div class="content">
+<h3>Assignment Information Management</h3>
+<div class="tags"><span class="tag">Flask</span><span class="tag">React</span><span class="tag">GitHub API</span></div>
+<p>Full‑stack app with Flask REST API and React UI; visualizes GitHub collaboration and manages assignments.</p>
+</div>
+<div class="actions">
+<a class="btn btn--ghost" href="#" target="_blank" rel="noopener"><ion-icon name="globe"></ion-icon> Demo</a>
+</div>
+</article>
+<article class="project shadow">
+<img class="thumb" src="assets/images/lpg.webp" alt="Intelligent LPG Gas System" loading="lazy"/>
+<div class="content">
+<h3>Design & Implementation of an Intelligent LPG Gas System</h3>
+<div class="tags"><span class="tag">IoT</span><span class="tag">Arduino</span><span class="tag">MQ135</span><span class="tag">GSM</span><span class="tag">Android</span></div>
+<p>Developed and <strong>published</strong> an IoT‑based system to detect LPG gas leakage and ensure user safety. Integrated Arduino Mega, MQ135 sensors, GSM module, and load cells for leakage detection, SMS alerts, and automatic LPG cylinder booking. Designed an Android app for real‑time monitoring and booking history, delivering a low‑cost, scalable safety solution.</p>
+</div>
+<div class="actions">
+<a class="btn btn--ghost" href="http://www.testmagzine.biz/index.php/testmagzine/issue/view/9" target="_blank" rel="noopener"> Publication</a>
+</div>
+</article>
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+<h2 class="section-title">Education</h2>
+<div class="timeline">
+<article class="item">
+<h3>Master of Science in Computer Science <span class="meta">May 2024</span></h3>
+<div class="meta">New Jersey Institute of Technology, Newark, NJ</div>
+</article>
+<article class="item">
+<h3>Bachelor of Science in Computer Science <span class="meta">May 2020</span></h3>
+<div class="meta">REVA University, Bengaluru, India</div>
+</article>
+</div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="grid-2">
+<div>
+<h2 class="section-title">Let’s build something great</h2>
+<p class="section-sub">Email me or drop a note below. I usually reply within 24 hours.</p>
+<div class="card shadow" style="display:flex; gap:.6rem; flex-wrap:wrap">
+<a class="btn" href="mailto:indudharadimoole@gmail.com"><ion-icon name="mail"></ion-icon> indudharadimoole@gmail.com</a>
+<a class="btn btn--ghost" href="https://x.com/Indudharadi" target="_blank" rel="noopener"><ion-icon name="logo-twitter"></ion-icon> @Indudharadi</a>
+<a class="btn btn--ghost" href="https://github.com/IndudharAdi" target="_blank" rel="noopener"><ion-icon name="logo-github"></ion-icon> GitHub</a>
+<a class="btn btn--ghost" href="https://www.linkedin.com/in/indudhar-adi-moole/" target="_blank" rel="noopener"><ion-icon name="logo-linkedin"></ion-icon> LinkedIn</a>
+</div>
+</div>
+<div>
+<iframe class="contact-embed shadow" loading="lazy" src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAWG09vRUNjJRWFhBUTM1T0ZOOUFNTEdOQk42TUE0Ny4u&embed=true" title="Contact form"></iframe>
+</div>
+</section>
+</main>
+
+
+<footer>
+<div class="container">© <span id="year"></span> · Built with ♥ by <a href="https://www.linkedin.com/in/indudhar-adi-moole/" target="_blank" rel="noopener">Indudhar Adi Moole</a></div>
+</footer>
+
+<!-- Scripts (keep last) -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js" defer></script>
+<script src="assets/JS/app.js"></script>
+<script>
+// Optional: typed effect for a subtle hero animation
+document.addEventListener('DOMContentLoaded', () => {
+if (window.Typed) {
+const el = document.createElement('span');
+el.id = 'typedRole';
+const h1 = document.querySelector('#about h1');
+if (h1) { h1.append(' — '); h1.appendChild(el); }
+new Typed('#typedRole', {
+strings: ['Java/Spring Boot', 'React/Angular', 'AWS & Microservices'],
+typeSpeed: 36, backSpeed: 18, backDelay: 1200, loop: true
+});
+}
+document.getElementById('year').textContent = new Date().getFullYear();
+});
+</script>
+</body>
 </html>
